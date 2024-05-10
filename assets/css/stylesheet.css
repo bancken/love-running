@@ -1,3 +1,7 @@
+/* importing google fonts "owsald" and "lato" */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+    
 /* asterix wildcard to override browser style default setting */
 * {
     padding: 0;
@@ -14,11 +18,13 @@ body {
 /* header */
 header {
     background-color: coral;
+    font-family: lato;
 }
 /* main */
 main {
 background-color: greenyellow;
 flex: 1 0 auto;
+font-family: oswald;
 }
 /* footer */
 footer {
