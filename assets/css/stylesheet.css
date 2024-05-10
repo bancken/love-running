@@ -1,0 +1,19 @@
+/* asterix wildcard to override browser style default setting */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    background-color: coral;
+}
+/* main */
+main {
+background-color: greenyellow;
+}
+/* footer */
+footer {
+    background-color: cyan;
+}
