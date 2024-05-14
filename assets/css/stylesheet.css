@@ -17,7 +17,7 @@ body {
 }
 /* header */
 header {
-    background-color: black;
+    background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -33,5 +33,5 @@ font-family: oswald;
 }
 /* footer */
 footer {
-    background-color: cyan;
+    background-color: purple;
 }
