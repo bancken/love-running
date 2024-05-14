@@ -20,6 +20,9 @@ header {
     background-color: coral;
     font-family: lato;
 }
+h1 {
+    font-family: oswald, sans-serif;
+}
 /* main */
 main {
 background-color: greenyellow;
