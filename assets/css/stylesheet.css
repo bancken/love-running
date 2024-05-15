@@ -116,9 +116,15 @@ margin-top: 47px;
     margin: 20px;
     text-align: center;
 }
+#benefits {
+    display: flex;
+    flex-direction: row;
+
+}
 #benefits-physical div {
     line-height: 20px;
     margin: 20px;
+    align-self: flex-end;
 }
 #benefits-physical hr {
     border-top: 1px solid #3a3a3a;
@@ -130,6 +136,8 @@ margin-top: 47px;
 #benefits-mental div {
     line-height: 20px;
     margin: 20px;
+    align-self: flex-start;
+    order: 1;
 }
 #benefits-mental hr {
     border-top: 1px solid #3a3a3a;
@@ -152,4 +160,5 @@ margin-top: 47px;
     border-radius: 50%;
     max-height: 300px;
     max-width: 300px;
+    order: 0;
 }
