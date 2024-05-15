@@ -76,7 +76,16 @@ flex: 1 0 auto;
 font-family: oswald;
 margin-top: 47px;
 }
-/* footer */
-footer {
+#social-networks {
     background-color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#social-networks i {
+    font-size: 160%;
+    padding: 20%;
+    color: #3a3a3a;
 }
